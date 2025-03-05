@@ -1,0 +1,17 @@
+<app-header></app-header>
+<app-slider></app-slider>
+<p>home works! {{name}}</p>
+<button [attr.aria-label]="idButton" (click)="logEvent($event)">Clique</button>
+
+@if(deveMostrarTitulo){
+    <h1>Titulo a ser exibido!</h1>
+}
+
+@for(item of listItems; track item.id){
+    <h1>
+        {{ item.id }}
+    </h1>
+}
+
+<p *ngFor="let item of listItems">{{ item.id }}</p>
+<app-footer></app-footer>

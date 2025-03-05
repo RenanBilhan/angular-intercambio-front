@@ -1,0 +1,15 @@
+body{
+    background: #9AAFC3;
+}
+
+h1{
+    color: #844D68;
+    text-align: center;
+    font-family: "Josefin Slab";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #9AAFC3;
+    padding: 10px;
+}
