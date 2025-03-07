@@ -1,2 +1,17 @@
 <p>slider works!</p>
 
+<swiper-container loop="true" navigation="true">
+    <!-- @for(item of listItems; track item.id){
+        <h1>
+            {{ item.id }}
+        </h1>
+    } -->
+    @for(imagem of myImages; track item.id){
+        <swiper-slide>
+            <img src="{{ imagem.id }}" />
+        </swiper-slide>
+    }
+    <!-- <swiper-slide>
+        <img src="\2.jpeg" alt="imagem2" id="img2"/>
+    </swiper-slide> -->
+</swiper-container>
