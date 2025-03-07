@@ -13,6 +13,7 @@ export class SliderComponent {
   myImages = [
     {src: '/1.jpeg', id: 'img1'},
     {src: "/2.jpeg", id: 'img2'},
+    {src: "/3.jpeg", id: 'img3'}
     // {src: "src\assets\imagens\fotos\WhatsApp Image 2025-02-27 at 08.08.10.jpeg"},
     // {src: "src\assets\imagens\fotos\WhatsApp Image 2025-02-27 at 08.08.11 (1).jpeg"},
     // {src: "src\assets\imagens\fotos\WhatsApp Image 2025-02-27 at 08.08.11.jpeg"}
