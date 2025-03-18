@@ -1,5 +1,14 @@
 <app-header></app-header>
 <app-slider></app-slider>
+
+<h1 class="title">
+    Programas de intercâmbio
+</h1>
+<div class="cardContainer">
+    <app-left-title-card [tituloCard]="atribuirTituloCard1"></app-left-title-card>
+    <app-left-title-card [tituloCard]="atribuirTituloCard2"></app-left-title-card>
+</div>
+
 <p>home works! {{name}}</p>
 <button [attr.aria-label]="idButton" (click)="logEvent($event)">Clique</button>
 

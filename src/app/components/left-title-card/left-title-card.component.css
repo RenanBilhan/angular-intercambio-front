@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    width: 760px;
+    height: 480px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url('/card/3e8b69fd2157c8176bf6ed3c465f2953.jpg') lightgray center / cover no-repeat;    
+}
+
+.tituloCard{
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Slab";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40px;
+}
